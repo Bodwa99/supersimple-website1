@@ -1,0 +1,89 @@
+.div-lowerbody {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.person-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.div-profile-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.profile-1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.first-sectionl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name-p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.p-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.div-time {
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.p-mutual {
+  font-size: 18px;
+  color: gray;
+  margin: 0;
+}
+
+.confirm-button {
+  background-color: rgb(54, 89, 229);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: rgb(191, 189, 189);
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 20px;
+  cursor: pointer;
+}

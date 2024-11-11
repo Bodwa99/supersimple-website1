@@ -1,0 +1,62 @@
+.div-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: white;
+}
+
+.homes-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.friends-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.messeges-icon {
+  height: 25px;
+  cursor: pointer;
+  border-radius: 12.5px;
+}
+
+.notifications-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.notification-number {
+  position: absolute;
+  background-color: red;
+  height: 14px;
+  font-size: 12px;
+  border-radius: 7px;
+  right: 290px;
+  top: 12px
+}
+
+.videos-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.market-place-icon {
+  height: 25px;
+  cursor: pointer;
+}
+
+.outergrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 40px;
+  margin-left: 50px;
+  background-color: black;
+}
